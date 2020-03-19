@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WAVideoBox (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WAVideoBox (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WAVideoBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WAVideoBox: a0db3f948fe539a4bbe92cf5eb6903cd2078e915
+
+PODFILE CHECKSUM: 7c27e8360a2f6961e02947dad37b56957c8d1654
+
+COCOAPODS: 1.8.4
