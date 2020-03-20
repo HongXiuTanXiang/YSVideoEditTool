@@ -127,6 +127,7 @@ void runAsynchronouslyOnVideoBoxContextQueue(void (^block)(void))
     
     self.videoQuality = 0;
     self.ratio = WAVideoExportRatio960x540;
+    self.shouldOptimizeForNetworkUse = NO;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(AVEditorNotification:) name:WAAVSEExportCommandCompletionNotification object:nil];
     
     return self;
@@ -559,6 +560,7 @@ void runAsynchronouslyOnVideoBoxContextQueue(void (^block)(void))
     
     WAAVSEExportCommand *exportCommand = [[WAAVSEExportCommand alloc] initWithComposition:composition];
     exportCommand.videoQuality = self.videoQuality;
+    exportCommand.shouldOptimizeForNetworkUse = self.shouldOptimizeForNetworkUse;
     self.exportCommand = exportCommand;
     [exportCommand performSaveByPath:filePath];
 

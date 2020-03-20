@@ -18,6 +18,9 @@
  */
 @property (nonatomic , assign) NSInteger videoQuality;
 
+///是否需要为网络传输做优化 默认为NO
+@property (nonatomic , assign) BOOL shouldOptimizeForNetworkUse;
+
 - (void)performSaveByPath:(NSString *)path;
 
 - (void)performSaveAsset:(AVAsset *)asset byPath:(NSString *)path;

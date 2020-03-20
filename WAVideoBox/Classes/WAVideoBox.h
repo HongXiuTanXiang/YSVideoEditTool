@@ -48,6 +48,8 @@ typedef NS_ENUM(NSUInteger,WAVideoExportRatio) {
  */
 @property (nonatomic , assign) NSInteger videoQuality;
 
+///是否需要为网络传输做优化 默认为NO
+@property (nonatomic , assign) BOOL shouldOptimizeForNetworkUse;
 
 #pragma mark 资源
 /**

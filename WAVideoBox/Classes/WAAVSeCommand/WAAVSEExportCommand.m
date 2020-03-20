@@ -18,6 +18,7 @@
 - (instancetype)initWithComposition:(WAAVSEComposition *)composition{
     if (self = [super initWithComposition:composition]) {
         self.videoQuality = 0;
+        self.shouldOptimizeForNetworkUse = NO;
     }
     return self;
 }
@@ -44,7 +45,7 @@
     
     self.exportSession = [[AVAssetExportSession alloc] initWithAsset:asset presetName:self.composition.presetName];
    
-    self.exportSession.shouldOptimizeForNetworkUse = NO;
+    self.exportSession.shouldOptimizeForNetworkUse = self.shouldOptimizeForNetworkUse;
     self.exportSession.videoComposition = self.composition.mutableVideoComposition;
     self.exportSession.audioMix = self.composition.mutableAudioMix;
     
