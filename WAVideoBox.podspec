@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WAVideoBox'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS video edit tool'
 
 # This description is used to generate tags and improve search results.
