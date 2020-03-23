@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WAVideoBox'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WAVideoBox.'
+  s.version          = '0.1.3'
+  s.summary          = 'iOS 音视频编辑工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/464429017@qq.com/WAVideoBox'
+  s.homepage         = 'https://github.com/HongXiuTanXiang/YSVideoEditTool.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '464429017@qq.com' => 'lihehe@theduapp.com' }
-  s.source           = { :git => 'https://github.com/464429017@qq.com/WAVideoBox.git', :tag => s.version.to_s }
+  s.author           = { '464429017@qq.com' => 'kkyushang@163.com' }
+  s.source           = { :git => 'https://github.com/HongXiuTanXiang/YSVideoEditTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
