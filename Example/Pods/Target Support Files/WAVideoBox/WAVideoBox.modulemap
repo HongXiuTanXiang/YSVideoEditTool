@@ -1,0 +1,6 @@
+framework module WAVideoBox {
+  umbrella header "WAVideoBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

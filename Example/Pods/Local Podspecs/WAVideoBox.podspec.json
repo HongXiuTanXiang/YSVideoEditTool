@@ -1,0 +1,22 @@
+{
+  "name": "WAVideoBox",
+  "version": "0.1.0",
+  "summary": "A short description of WAVideoBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/464429017@qq.com/WAVideoBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "464429017@qq.com": "lihehe@theduapp.com"
+  },
+  "source": {
+    "git": "https://github.com/464429017@qq.com/WAVideoBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WAVideoBox/Classes/**/*"
+}

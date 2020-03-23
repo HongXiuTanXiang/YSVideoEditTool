@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144867572429219400B2626E /* test3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144867522429219300B2626E /* test3.mp4 */; };
+		144867582429219400B2626E /* gifTest.gif in Resources */ = {isa = PBXBuildFile; fileRef = 144867532429219300B2626E /* gifTest.gif */; };
+		144867592429219400B2626E /* nature.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144867542429219300B2626E /* nature.mp4 */; };
+		1448675A2429219400B2626E /* test1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144867552429219400B2626E /* test1.mp4 */; };
+		1448675B2429219400B2626E /* test2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144867562429219400B2626E /* test2.mp4 */; };
+		1448675E2429220F00B2626E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1448675D2429220E00B2626E /* PlayViewController.m */; };
+		144867602429234200B2626E /* waterImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1448675F2429234200B2626E /* waterImage.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CB275661F610C54ED92FE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		03CB275661F610C54ED92FE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		144867522429219300B2626E /* test3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.mp4; sourceTree = "<group>"; };
+		144867532429219300B2626E /* gifTest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifTest.gif; sourceTree = "<group>"; };
+		144867542429219300B2626E /* nature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nature.mp4; sourceTree = "<group>"; };
+		144867552429219400B2626E /* test1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test1.mp4; sourceTree = "<group>"; };
+		144867562429219400B2626E /* test2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.mp4; sourceTree = "<group>"; };
+		1448675C2429220E00B2626E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		1448675D2429220E00B2626E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		1448675F2429234200B2626E /* waterImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImage.png; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WAVideoBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAVideoBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +76,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		888B94AB662960BCF405C018 /* Pods_WAVideoBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAVideoBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		966D31C865F4A5C6F8A31770 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		966D31C865F4A5C6F8A31770 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A0E7A9C5B30DAFDC8AAC03BA /* Pods-WAVideoBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVideoBox_Example.release.xcconfig"; path = "Target Support Files/Pods-WAVideoBox_Example/Pods-WAVideoBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B19C8321BC2C530006378E01 /* Pods-WAVideoBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVideoBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-WAVideoBox_Example/Pods-WAVideoBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E38C38E0DF49894C53B513A9 /* Pods-WAVideoBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVideoBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-WAVideoBox_Tests/Pods-WAVideoBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E49333EE8A5C511A8119C210 /* WAVideoBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WAVideoBox.podspec; path = ../WAVideoBox.podspec; sourceTree = "<group>"; };
+		E49333EE8A5C511A8119C210 /* WAVideoBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WAVideoBox.podspec; path = ../WAVideoBox.podspec; sourceTree = "<group>"; };
 		F5B2D148D04EB4FAF9533534 /* Pods_WAVideoBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAVideoBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,11 +147,19 @@
 		6003F593195388D20070C39A /* Example for WAVideoBox */ = {
 			isa = PBXGroup;
 			children = (
+				1448675F2429234200B2626E /* waterImage.png */,
+				144867532429219300B2626E /* gifTest.gif */,
+				144867542429219300B2626E /* nature.mp4 */,
+				144867552429219400B2626E /* test1.mp4 */,
+				144867562429219400B2626E /* test2.mp4 */,
+				144867522429219300B2626E /* test3.mp4 */,
 				6003F59C195388D20070C39A /* WAAppDelegate.h */,
 				6003F59D195388D20070C39A /* WAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WAViewController.h */,
 				6003F5A6195388D20070C39A /* WAViewController.m */,
+				1448675C2429220E00B2626E /* PlayViewController.h */,
+				1448675D2429220E00B2626E /* PlayViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +216,6 @@
 				65BD9E895A80F021F34EE83C /* Pods-WAVideoBox_Tests.debug.xcconfig */,
 				E38C38E0DF49894C53B513A9 /* Pods-WAVideoBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +281,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,9 +302,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				1448675A2429219400B2626E /* test1.mp4 in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				144867572429219400B2626E /* test3.mp4 in Resources */,
+				144867582429219400B2626E /* gifTest.gif in Resources */,
+				144867602429234200B2626E /* waterImage.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				144867592429219400B2626E /* nature.mp4 in Resources */,
+				1448675B2429219400B2626E /* test2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1448675E2429220F00B2626E /* PlayViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WAAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WAViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
