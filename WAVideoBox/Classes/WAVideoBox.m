@@ -819,4 +819,41 @@ void runAsynchronouslyOnVideoBoxContextQueue(void (^block)(void))
     }
     return _tmpVideoSpace;
 }
+
+- (UIImage * _Nullable)getLocalVideoPreViewImage:(NSString * _Nonnull)path {
+    AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:[NSURL fileURLWithPath:path] options:nil];
+    AVAssetImageGenerator *assetGen = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+    assetGen.appliesPreferredTrackTransform = YES;
+    CMTime time = CMTimeMakeWithSeconds(0.0, 600);
+    NSError *error = nil;
+    CMTime actualTime;
+    CGImageRef image = [assetGen copyCGImageAtTime:time actualTime:&actualTime error:&error];
+    UIImage *videoImage = [[UIImage alloc] initWithCGImage:image];
+    CGImageRelease(image);
+    if (videoImage == nil) {
+        return nil;
+    }
+    return videoImage;
+}
+
+- (UIImage * _Nullable)getNetworkVideoPreViewImage:(NSString * _Nonnull)path {
+    ////网络视频
+    AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:[NSURL URLWithString:path] options:nil];
+    AVAssetImageGenerator *assetGen = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+    assetGen.appliesPreferredTrackTransform = YES;
+    CMTime time = CMTimeMakeWithSeconds(0.0, 600);
+    NSError *error = nil;
+    CMTime actualTime;
+    CGImageRef image = [assetGen copyCGImageAtTime:time actualTime:&actualTime error:&error];
+    UIImage *videoImage = [[UIImage alloc] initWithCGImage:image];
+    CGImageRelease(image);
+    if (videoImage == nil) {
+        return nil;
+    }
+    return videoImage;
+}
+
+
+
+
 @end

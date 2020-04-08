@@ -210,4 +210,12 @@ typedef NS_ENUM(NSUInteger,WAVideoExportRatio) {
  */
 - (void)clean;
 
+/// 获取网络视频的第一帧
+/// @param path 视频路径
+- (UIImage * _Nullable)getNetworkVideoPreViewImage:(NSString * _Nonnull)path;
+
+/// 获取本地视频的第一帧
+/// @param path 视频路径
+- (UIImage * _Nullable)getLocalVideoPreViewImage:(NSString * _Nonnull)path;
+
 @end

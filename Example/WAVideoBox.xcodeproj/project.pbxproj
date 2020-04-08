@@ -80,7 +80,7 @@
 		A0E7A9C5B30DAFDC8AAC03BA /* Pods-WAVideoBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVideoBox_Example.release.xcconfig"; path = "Target Support Files/Pods-WAVideoBox_Example/Pods-WAVideoBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B19C8321BC2C530006378E01 /* Pods-WAVideoBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVideoBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-WAVideoBox_Example/Pods-WAVideoBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E38C38E0DF49894C53B513A9 /* Pods-WAVideoBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVideoBox_Tests.release.xcconfig"; path = "Target Support Files/Pods-WAVideoBox_Tests/Pods-WAVideoBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E49333EE8A5C511A8119C210 /* WAVideoBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WAVideoBox.podspec; path = ../WAVideoBox.podspec; sourceTree = "<group>"; };
+		E49333EE8A5C511A8119C210 /* WAVideoBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WAVideoBox.podspec; path = ../WAVideoBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5B2D148D04EB4FAF9533534 /* Pods_WAVideoBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAVideoBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
