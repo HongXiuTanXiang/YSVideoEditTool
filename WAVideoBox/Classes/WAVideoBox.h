@@ -4,7 +4,7 @@
 //
 //  Created by 黄锐灏 on 17/9/10.
 //  Copyright © 2017年 黄锐灏. All rights reserved.
-//
+//  音视频编辑工具库
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
