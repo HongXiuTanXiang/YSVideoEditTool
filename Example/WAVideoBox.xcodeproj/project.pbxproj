@@ -14,6 +14,9 @@
 		1448675B2429219400B2626E /* test2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144867562429219400B2626E /* test2.mp4 */; };
 		1448675E2429220F00B2626E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1448675D2429220E00B2626E /* PlayViewController.m */; };
 		144867602429234200B2626E /* waterImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1448675F2429234200B2626E /* waterImage.png */; };
+		14CA8E9A24879DCB002C8B7E /* recordVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 14CA8E9924879DCA002C8B7E /* recordVideo.mp4 */; };
+		14CA8E9C24879DE3002C8B7E /* du_ar_share_second.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 14CA8E9B24879DE3002C8B7E /* du_ar_share_second.mp4 */; };
+		14CA8E9E2487AB9D002C8B7E /* second_video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 14CA8E9D2487AB9D002C8B7E /* second_video.MOV */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -53,6 +56,9 @@
 		1448675C2429220E00B2626E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		1448675D2429220E00B2626E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		1448675F2429234200B2626E /* waterImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImage.png; sourceTree = "<group>"; };
+		14CA8E9924879DCA002C8B7E /* recordVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recordVideo.mp4; sourceTree = "<group>"; };
+		14CA8E9B24879DE3002C8B7E /* du_ar_share_second.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = du_ar_share_second.mp4; sourceTree = "<group>"; };
+		14CA8E9D2487AB9D002C8B7E /* second_video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = second_video.MOV; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WAVideoBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAVideoBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -153,6 +159,9 @@
 				144867552429219400B2626E /* test1.mp4 */,
 				144867562429219400B2626E /* test2.mp4 */,
 				144867522429219300B2626E /* test3.mp4 */,
+				14CA8E9924879DCA002C8B7E /* recordVideo.mp4 */,
+				14CA8E9B24879DE3002C8B7E /* du_ar_share_second.mp4 */,
+				14CA8E9D2487AB9D002C8B7E /* second_video.MOV */,
 				6003F59C195388D20070C39A /* WAAppDelegate.h */,
 				6003F59D195388D20070C39A /* WAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -305,12 +314,15 @@
 				1448675A2429219400B2626E /* test1.mp4 in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				144867572429219400B2626E /* test3.mp4 in Resources */,
+				14CA8E9E2487AB9D002C8B7E /* second_video.MOV in Resources */,
 				144867582429219400B2626E /* gifTest.gif in Resources */,
+				14CA8E9C24879DE3002C8B7E /* du_ar_share_second.mp4 in Resources */,
 				144867602429234200B2626E /* waterImage.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				144867592429219400B2626E /* nature.mp4 in Resources */,
 				1448675B2429219400B2626E /* test2.mp4 in Resources */,
+				14CA8E9A24879DCB002C8B7E /* recordVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

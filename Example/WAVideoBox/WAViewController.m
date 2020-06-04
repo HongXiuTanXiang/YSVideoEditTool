@@ -32,9 +32,9 @@
     [super viewDidLoad];
     _videoBox = [WAVideoBox new];
     
-      _videoPath = [[NSBundle mainBundle] pathForResource:@"nature.mp4" ofType:nil];
+      _videoPath = [[NSBundle mainBundle] pathForResource:@"recordVideo.mp4" ofType:nil];
     
-      _testOnePath = [[NSBundle mainBundle] pathForResource:@"test1.mp4" ofType:nil];
+      _testOnePath = [[NSBundle mainBundle] pathForResource:@"second_video.MOV" ofType:nil];
       _testTwoPath = [[NSBundle mainBundle] pathForResource:@"test2.mp4" ofType:nil];
       _testThreePath = [[NSBundle mainBundle] pathForResource:@"test3.mp4" ofType:nil];
     
@@ -67,7 +67,7 @@
     // 把最后的视频再做一个变速
     [_videoBox appendVideoByPath:_videoPath];
 //    [_videoBox appendWaterMark:[UIImage imageNamed:@"gifTest"] relativeRect:CGRectMake(0.1, 0.2, 0.2, 0)];
-    [_videoBox appendWaterMark:[UIImage imageNamed:@"waterImage"] absoluteRect:CGRectMake(100, 100, 0.3, 0)];
+//    [_videoBox appendWaterMark:[UIImage imageNamed:@"waterImage"] absoluteRect:CGRectMake(100, 100, 0.3, 0)];
 //    [_videoBox replaceSoundBySoundPath:_testOnePath];
 //    [_videoBox dubbedSoundBySoundPath:_testThreePath];
 //    [_videoBox rangeVideoByTimeRange:CMTimeRangeMake(kCMTimeZero, CMTimeMake(3600, 600))];
@@ -91,6 +91,7 @@
     }  complete:^(NSError * error) {
         if (!error) {
             [wself goToPlayVideoByFilePath:filePath];
+            NSLog(@"filePath= %@",filePath);
         }
     }];
     
